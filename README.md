@@ -11,7 +11,14 @@ This repo can be used both to run the system as a human and to run benchmarks.
 1. Clone this repo and check out the appropriate branch
 2. Have an Opam switch available in which you want to install the system. If you want to create an empty
    switch in the current directory, you can run `opam switch create --empty .`. Make sure that you run
-   `eval $(opam switch)` at the appropriate time to activate the switch.
+   `eval $(opam switch)` at the appropriate time to activate the switch. Add the needed Opam repositories
+   to the switch:
+   ```
+   opam repo add coq-released https://coq.inria.fr/opam/released     # packages for officially released versions of Coq library
+   opam repo add coq-core-dev https://coq.inria.fr/opam/core-dev     # packages for development versions of Coq
+   opam repo add coq-extra-dev https://coq.inria.fr/opam/extra-dev   # packages for development versions of Coq libraries and Coq extensions
+   opam repo add custom-archive https://github.com/LasseBlaauwbroek/custom-archive.git # for Lasse's bugfixes of Coq
+   ```
 3. Install and activate the `graph2tac` prerequisites (this will create a Python virtualenv).
    From the repo directory, run
    ```
