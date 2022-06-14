@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-set -ue
 comm -13 <(env | sort)  <(source ./venv/bin/activate && env | sort)
