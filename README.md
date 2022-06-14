@@ -16,7 +16,7 @@ This repo can be used both to run the system as a human and to run benchmarks.
    From the repo directory, run
    ```
    ./prerequisites
-   . ./update-env
+   . ./venv/bin/activate
    ```
 4. Install the opam package. From the repo directory, run
    ```
