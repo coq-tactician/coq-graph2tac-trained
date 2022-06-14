@@ -21,7 +21,7 @@ This repo can be used both to run the system as a human and to run benchmarks.
 4. Install the opam package. From the repo directory, run
    ```
    opam install coq-tactician-stdlib ./coq-graph2tac.opam
-   tactician enable # Makes Tactician available immediately when you active Coq
+   tactician enable # Makes Tactician available immediately when you start Coq
    tactician inject # Injects Tactician into Opam if you want to install additional packages
    ```
    Detailed instructions about installing (and using) Tactician is available on the
@@ -42,6 +42,7 @@ if your project is normally build through `make` of `dune build`, you now do thi
 tactician exec make
 tactician exec dune build
 ```
+For detailed usage instructions on Tactician see the [website](https://coq-tactician.github.io/manual/).
 
 ## Running a benchmark
 Install the benchmarking system according to the README here: https://github.com/coq-tactician/benchmark-system
