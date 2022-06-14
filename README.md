@@ -1,7 +1,8 @@
 # Complete Opam package combining Tactician, Graph2Tac and a trained model
 
 This repo contains an Opam package that contains all the metadata needed to run Tactician with a Graph2Tac model.
-Additionally, it records which version of Graph2Tac is needed.
+Additionally, it records which version of Graph2Tac is needed, and which parameters are used to invoke the
+`g2t-server`.
 
 This repo can be used both to run the system as a human and to run benchmarks.
 
