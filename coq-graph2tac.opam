@@ -43,8 +43,8 @@ depends: [
   "coq-tactician"
 ]
 extra-source "model.tar.gz" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2022-06-13_vasily_run_epoch267.tar.gz"
-  checksum: "md5=ba335beba90b5440557b90e98011a810"
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2022-06-11_vasily_run_epoch80.tar.gz"
+  checksum: "md5=e3eacc19555f3245b80cb8a754aa2c8c"
 }
 substs: [
   "Graph2TacConfig.v"
