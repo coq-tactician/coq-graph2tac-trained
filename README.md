@@ -29,11 +29,14 @@ This repo can be used both to run the system as a human and to run benchmarks.
 4. Install the opam package. From the repo directory, run
    ```
    opam install coq-tactician-stdlib ./coq-graph2tac.opam
-   tactician enable # Makes Tactician available immediately when you start Coq
    tactician inject # Injects Tactician into Opam if you want to install additional packages
    ```
    Detailed instructions about installing (and using) Tactician is available on the
    [website](https://coq-tactician.github.io/manual/).
+   
+   *Warning:* The Tactician website suggests that you should use `tactician enable` to automatically load
+   Tactician. Unfortunately, this does not work with Graph2Tac currently. Instead you should manually load it
+   by typing `From Tactician Require Import Ltac1.`.
 
 ### Usage
 You can use Coq as normal through `coqtop`, `coqc` and `coqide`. However, in order to make sure that Tactician
