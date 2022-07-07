@@ -17,7 +17,7 @@ build: [
 ]
 install: [
   [ "mkdir" "--parents" "%{share}%/%{name}%/" ]
-  [ "cp" "hmodel.sav" "%{share}%/%{name}%/hmodel.sav" ]
+  [ "cp" "-r" "global_argument_def_qsaving2/" "%{share}%/%{name}%/" ]
 
   [ "cp" "Graph2TacConfig.v" "%{lib}%/coq/user-contrib/Tactician/Graph2TacConfig.v" ]
 
@@ -41,9 +41,9 @@ depends: [
   "coq-tactician-reinforce"
   "coq-tactician"
 ]
-extra-source "hmodel.sav" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/vasily/hmodel.sav"
-  checksum: "md5=33ae0809416f8b3a7faa144965f14adf"
+extra-source "global_argument_def_qsaving2.tar.gz" {
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/tfgnn/global_argument_def_qsaving2.tar.gz"
+  checksum: "md5=a0cb6e822c6c253d95aaebe27f55c133"
 }
 substs: [
   "Graph2TacConfig.v"
