@@ -14,7 +14,7 @@ homepage: "https://coq-tactician.github.io"
 bug-reports:
   "https://github.com/pestun/graph2tac/issues"
 build: [
-  [ "tar" "xzf" "model.tar.gz" "--one-top-level" "--strip-components" "1"
+  [ "tar" "xzf" "model.tar.gz" "--one-top-level" "--strip-components" "1"]
 ]
 install: [
   [ "mkdir" "--parents" "%{share}%/%{name}%/" ]
