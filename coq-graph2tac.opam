@@ -44,7 +44,7 @@ depends: [
 ]
 extra-source "model.tar.gz" {
   src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/tfgnn/global_argument_def_qsaving2.tar.gz"
-  checksum: "md5=a0cb6e822c6c253d95aaebe27f55c133"
+  checksum: "md5=bc39ba1c9876d2118bf2abe7069ca278"
 }
 substs: [
   "Graph2TacConfig.v"
