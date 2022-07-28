@@ -16,10 +16,13 @@ bug-reports:
 build: [
   [ "tar" "xzf" "model.tar.gz" "--one-top-level" "--strip-components" "1" ]
 ]
+# merges + vocab
 install: [
   [ "mkdir" "--parents" "%{share}%/%{name}%/" ]
   [ "cp" "-r" "model/" "%{share}%/%{name}%/" ]
-
+  [ "mkdir" "%{share}%/%{name}%/tokenizer/" ]
+  [ "cp" "vocab.json" "%{share}%/%{name}%/tokenizer/vocab.json" ]
+  [ "cp" "merges.txt" "%{share}%/%{name}%/tokenizer/merges.txt" ]
   [ "cp" "Graph2TacConfig.v" "%{lib}%/coq/user-contrib/Tactician/Graph2TacConfig.v" ]
 
   # We have to make sure that our injection flags get loaded after the injection flags of coq-tactician-reinforce.
@@ -42,10 +45,22 @@ depends: [
   "coq-tactician-reinforce"
   "coq-tactician"
 ]
+# md5sum [file]
+
 extra-source "model.tar.gz" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2022-06-13_vasily_run_400_epoch_256.tar.gz"
-  checksum: "md5=4434c615d3f29bfe8e539d4b772cfdc8"
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_first_benchmark/checkpoint-760000.tar.gz"
+  checksum: "82ae86304d20eeab5edea0e80066fdba"  
 }
+extra-source "merges.txt" {
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_first_benchmark/merges.txt"
+  checksum: "a67d75e02d3697ebf1813805e4e7af97"
+}
+
+extra-source "vocab.json" {
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_first_benchmark/vocab.json"
+  checksum: "dd767ef9a25e4bbce7d68c0912d3149b"
+}
+
 substs: [
   "Graph2TacConfig.v"
 ]
