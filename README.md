@@ -12,7 +12,7 @@ This repo can be used both to run the system as a human and to run benchmarks.
 1. Clone this repo and check out the appropriate branch
 2. Have an Opam switch available in which you want to install the system. If you want to create an empty
    switch in the current directory, you can run `opam switch create --empty .`. Make sure that you run
-   `eval $(opam switch)` at the appropriate time to activate the switch. Add the needed Opam repositories
+   `eval $(opam env)` at the appropriate time to activate the switch. Add the needed Opam repositories
    to the switch:
    ```
    opam repo add coq-released https://coq.inria.fr/opam/released     # packages for officially released versions of Coq library
