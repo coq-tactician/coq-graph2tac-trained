@@ -1,0 +1,61 @@
+
+
+------------------ Benchmark terminated -----------------------
+
+Fatal benchmarking error: Abnormal exit code for coqc: 129
+ Invocation:
+OPAM_PACKAGE_NAME=coq-tactician-stdlib; export OPAM_PACKAGE_NAME;
+CONDA_PROMPT_MODIFIER=(python3.9) ; export CONDA_PROMPT_MODIFIER;
+LC_TIME=cs_CZ.UTF-8; export LC_TIME;
+USER=piepejel; export USER;
+LANGUAGE=en_US:en; export LANGUAGE;
+SSH_CLIENT=10.35.1.2 52906 22; export SSH_CLIENT;
+OPAMSWITCH=bench; export OPAMSWITCH;
+SSH_AGENT_PID=2981232; export SSH_AGENT_PID;
+SHLVL=1; export SHLVL;
+HOME=/home/piepejel; export HOME;
+CONDA_SHLVL=2; export CONDA_SHLVL;
+OLDPWD=/raid/scratch/piepejel/projects; export OLDPWD;
+MOTD_SHOWN=pam; export MOTD_SHOWN;
+SSH_TTY=/dev/pts/2; export SSH_TTY;
+CAML_LD_LIBRARY_PATH=/tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/stublibs:/tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/ocaml/stublibs:/tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/ocaml; export CAML_LD_LIBRARY_PATH;
+OCAML_TOPLEVEL_PATH=/tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/toplevel; export OCAML_TOPLEVEL_PATH;
+PS1=(venv) (python3.9) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ ; export PS1;
+LC_MONETARY=cs_CZ.UTF-8; export LC_MONETARY;
+ASYNC_PARALLEL_IS_CHILD_MACHINE=; export ASYNC_PARALLEL_IS_CHILD_MACHINE;
+MAKEFLAGS= -j79 --jobserver-auth=3,4; export MAKEFLAGS;
+_CE_M=; export _CE_M;
+LOGNAME=piepejel; export LOGNAME;
+_=/raid/scratch/piepejel/projects/coq-graph2tac-trained/_opam/bin/tactician-benchmark; export _;
+PKG_CONFIG_PATH=/tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/pkgconfig; export PKG_CONFIG_PATH;
+OPAMROOT=/tmp/tactician.tmp.sQ7Ptv/opam-root; export OPAMROOT;
+TERM=xterm-256color; export TERM;
+_CE_CONDA=; export _CE_CONDA;
+PATH=/tmp/tactician.tmp.sQ7Ptv/target-source/venv/bin:/tmp/tactician.tmp.sQ7Ptv/opam-root/bench/bin:/raid/scratch/piepejel/projects/coq-graph2tac-trained/venv/bin:/home/piepejel/anaconda3/envs/python3.9/bin:/home/piepejel/anaconda3/condabin:/usr/local/cuda/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/piepejel/.local/bin:/home/piepejel/bin; export PATH;
+LC_ADDRESS=cs_CZ.UTF-8; export LC_ADDRESS;
+MAKELEVEL=1; export MAKELEVEL;
+CONDA_PREFIX_1=/home/piepejel/anaconda3; export CONDA_PREFIX_1;
+LC_TELEPHONE=cs_CZ.UTF-8; export LC_TELEPHONE;
+LANG=en_US.UTF-8; export LANG;
+CDPATH=; export CDPATH;
+SSH_AUTH_SOCK=/tmp/ssh-K9iPo99RbMre/agent.2981231; export SSH_AUTH_SOCK;
+CONDA_PYTHON_EXE=/home/piepejel/anaconda3/bin/python; export CONDA_PYTHON_EXE;
+OPAMCLI=2.0; export OPAMCLI;
+SHELL=/bin/bash; export SHELL;
+LC_NAME=cs_CZ.UTF-8; export LC_NAME;
+OPAM_PACKAGE_VERSION=8.11.dev; export OPAM_PACKAGE_VERSION;
+CONDA_DEFAULT_ENV=python3.9; export CONDA_DEFAULT_ENV;
+LC_MEASUREMENT=cs_CZ.UTF-8; export LC_MEASUREMENT;
+OPAM_SWITCH_PREFIX=/tmp/tactician.tmp.sQ7Ptv/opam-root/bench; export OPAM_SWITCH_PREFIX;
+LC_IDENTIFICATION=cs_CZ.UTF-8; export LC_IDENTIFICATION;
+VIRTUAL_ENV=/raid/scratch/piepejel/projects/coq-graph2tac-trained/venv; export VIRTUAL_ENV;
+PWD=/tmp/tactician.tmp.sQ7Ptv/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev; export PWD;
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop; export XDG_DATA_DIRS;
+SSH_CONNECTION=10.35.1.2 52906 10.35.64.30 22; export SSH_CONNECTION;
+CONDA_EXE=/home/piepejel/anaconda3/bin/conda; export CONDA_EXE;
+LC_NUMERIC=cs_CZ.UTF-8; export LC_NUMERIC;
+MFLAGS=-j79 --jobserver-auth=3,4; export MFLAGS;
+LC_PAPER=cs_CZ.UTF-8; export LC_PAPER;
+CONDA_PREFIX=/home/piepejel/anaconda3/envs/python3.9; export CONDA_PREFIX;
+MANPATH=:/tmp/tactician.tmp.sQ7Ptv/opam-root/bench/man; export MANPATH;
+(cd /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev && bwrap --dev-bind / / --bind /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev/theories/Reals/Ranalysis_reg.vo.bench /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev/theories/Reals/Ranalysis_reg.vo /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/bin/coqc -q -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/coq/user-contrib/Tactician -R /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/stdlib-shims -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/ocamlgraph -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/ocaml -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/lwt -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/ocplib-endian -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/ocplib-endian/bigstring -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/lwt/unix -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/astring -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/res -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/result -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/stdint -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/capnp -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/asetmap -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/fmt -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/logs -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/capnp-rpc -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/bigstringaf -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/angstrom -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/stringext -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/uri -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/capnp-rpc-lwt -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/base64 -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/cstruct -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/eqaf -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/eqaf/bigstring -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/eqaf/cstruct -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/mirage-crypto -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/mirage-crypto-rng -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/mirage-flow -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/re -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/prometheus -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/ptime -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/mirage-clock -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/sexplib0 -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/zarith -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/mirage-crypto-pk -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/mirage-kv -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/base/caml -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/parsexp -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/sexplib -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/cstruct-sexp -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/domain-name -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/hkdf -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/macaddr -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/ipaddr -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/ppx_sexp_conv/runtime-lib -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/ipaddr-sexp -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/mirage-crypto-ec -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/asn1-combinators -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/gmap -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/pbkdf -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/x509 -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/tls -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/tls-mirage -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/capnp-rpc-net -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/cmdliner -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/cstruct-lwt -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/extunix -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/duration -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/mirage-crypto-rng/unix -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/mtime -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/mtime/clock/os -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/mirage-crypto-rng/lwt -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/capnp-rpc-unix -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/base/base_internalhash_types -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/base/shadow_stdlib -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/base -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/stdio -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/capnp/unix -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/logs -l NNLearner -l Graph2TacConfig.v -l /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/share/coq-tactician/plugins/zzz-benchmark/Injections.v -q -coqlib . -I /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/coq/user-contrib/Tactician -R /tmp/tactician.tmp.sQ7Ptv/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record theories/Reals/Ranalysis_reg.v -l /tmp/tactician.tmp.sQ7Ptv/BenchParams.v)
