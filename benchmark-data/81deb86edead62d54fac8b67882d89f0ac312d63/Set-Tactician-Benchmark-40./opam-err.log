@@ -1,0 +1,8 @@
+  Running command git clone --filter=blob:none --quiet 'ssh://****@github.com/JellePiepenbrock/graph2tac.git' /tmp/pip-req-build-a_k6zsxl
+  Running command git rev-parse -q --verify 'sha^f11a052aa225591e711be395aa81aad2261757d4'
+  Running command git fetch -q 'ssh://****@github.com/JellePiepenbrock/graph2tac.git' f11a052aa225591e711be395aa81aad2261757d4
+  Running command git checkout -q f11a052aa225591e711be395aa81aad2261757d4
+WARNING: You are using pip version 22.0.4; however, version 22.2.2 is available.
+You should consider upgrading via the '/tmp/tactician.tmp.G8v6y8/target-source/venv/bin/python3 -m pip install --upgrade pip' command.
+[ERROR] Could not update repository "default": OpamDownload.Download_fail(_, "Curl failed: \"/usr/bin/curl --write-out %{http_code}\\\\n --retry 3 --retry-delay 2 --user-agent opam/2.1.2 -L -o /tmp/opam-3357545-c36597/index.tar.gz.part -- https://opam.ocaml.org/index.tar.gz\" exited with code 18")
+[ERROR] Initial download of repository failed.
