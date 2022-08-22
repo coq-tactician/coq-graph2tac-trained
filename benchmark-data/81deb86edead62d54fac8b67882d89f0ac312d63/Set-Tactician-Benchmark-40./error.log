@@ -2,7 +2,9 @@
 
 ------------------ Benchmark terminated -----------------------
 
-Fatal benchmarking error: (monitor.ml.Error ("OpamStd.OpamSys.Exit(40)")
- ("Raised at Base__Result.ok_exn in file \"src/result.ml\", line 201, characters 17-26"
-  "Called from Async_kernel__Deferred1.M.map.(fun) in file \"src/deferred1.ml\", line 17, characters 40-45"
-  "Called from Async_kernel__Job_queue.run_jobs in file \"src/job_queue.ml\", line 167, characters 6-47"))
+Fatal benchmarking error: Termination request received: sigint
+Fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (dgx-1 40699)))
+ (rpc_tag rpc_parallel_piped_5) (rpc_version 0))
+Fatal benchmarking error: Termination request received: sigint
+Fatal benchmarking error: Termination request received: sigint
