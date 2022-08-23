@@ -30,3 +30,1815 @@ starting proving server with connection through their stdin
 using textmode optiongraph
 starting proving server with connection through their stdin
 using textmode optiongraph
+Model Loaded
+0
+(synchronize = 158047772)
+(synchronized = 158047772)
+Model Loaded
+0
+(synchronize = 86373426)
+(synchronized = 86373426)
+Model Loaded
+0
+(synchronize = 832411013)
+(synchronized = 832411013)
+Model Loaded
+0
+(synchronize = 719830288)
+(synchronized = 719830288)
+Model Loaded
+0
+(synchronize = 346147276)
+(synchronized = 346147276)
+Model Loaded
+0
+(synchronize = 816628602)
+(synchronized = 816628602)
+Model Loaded
+0
+(synchronize = 484050721)
+(synchronized = 484050721)
+Model Loaded
+0
+(synchronize = 119309223)
+(synchronized = 119309223)
+Model Loaded
+0
+(synchronize = 532730105)
+(synchronized = 532730105)
+Model Loaded
+0
+(synchronize = 625238305)
+(synchronized = 625238305)
+Model Loaded
+0
+(synchronize = 702529741)
+(synchronized = 702529741)
+Model Loaded
+0
+(synchronize = 994514164)
+(synchronized = 994514164)
+Model Loaded
+0
+(synchronize = 147700188)
+(synchronized = 147700188)
+Model Loaded
+0
+(synchronize = 82366958)
+(synchronized = 82366958)
+Model Loaded
+0
+(synchronize = 102445234)
+(synchronized = 102445234)
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 74231144)
+(synchronized = 74231144)
+Model Loaded
+0
+(synchronize = 532078695)
+(synchronized = 532078695)
+Model Loaded
+0
+(synchronize = 445362810)
+(synchronized = 445362810)
+Model Loaded
+0
+(synchronize = 247700533)
+(synchronized = 247700533)
+Model Loaded
+0
+(synchronize = 214012186)
+(synchronized = 214012186)
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 959559044)
+(synchronized = 959559044)
+Model Loaded
+0
+(synchronize = 681622027)
+(synchronized = 681622027)
+Model Loaded
+0
+(synchronize = 907105544)
+(synchronized = 907105544)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 963413694)
+(synchronized = 963413694)
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 734567066)
+(synchronized = 734567066)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 476242590)
+(synchronized = 476242590)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 155620620)
+(synchronized = 155620620)
+---------------- New prediction context -----------------
+(initialized = void)
+(synchronize = 848956008)
+(synchronized = 848956008)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 609225948)
+(synchronized = 609225948)
+(synchronize = 915920293)
+(synchronized = 915920293)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 296941120)
+(synchronized = 296941120)
+(synchronize = 706347367)
+(synchronized = 706347367)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 723521306)
+(synchronized = 723521306)
+(synchronize = 351081124)
+(synchronized = 351081124)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 938520262)
+(synchronized = 938520262)
+(synchronize = 173945918)
+(synchronized = 173945918)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 630452357)
+(synchronized = 630452357)
+(synchronize = 731605720)
+(synchronized = 731605720)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 883599109)
+(synchronized = 883599109)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 239.65257787704468 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 533952313)
+(synchronized = 533952313)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 625793237)
+(synchronized = 625793237)
+(synchronize = 73086547)
+(synchronized = 73086547)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 674661560)
+(synchronized = 674661560)
+(synchronize = 583537223)
+(synchronized = 583537223)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 544352541)
+(synchronized = 544352541)
+(synchronize = 1046556)
+(synchronized = 1046556)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 580171528)
+(synchronized = 580171528)
+(synchronize = 398683006)
+(synchronized = 398683006)
+(synchronize = 423897926)
+(synchronized = 423897926)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 136031606)
+(synchronized = 136031606)
+(synchronize = 138236823)
+(synchronized = 138236823)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 1032981877)
+( synchronized = 1032981877 )
+(synchronize = 230030901)
+(synchronized = 230030901)
+(synchronize = 786622665)
+(synchronized = 786622665)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 145163157)
+(synchronized = 145163157)
+(synchronize = 131703689)
+(synchronized = 131703689)
+(synchronize = 11564718)
+(synchronized = 11564718)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 776343034)
+(synchronized = 776343034)
+(synchronize = 620763758)
+(synchronized = 620763758)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 541560324)
+(synchronized = 541560324)
+(synchronize = 386996140)
+(synchronized = 386996140)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 38646392)
+(synchronized = 38646392)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 566.5604798793793 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 1037985806)
+( synchronized = 1037985806 )
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 426635308)
+(synchronized = 426635308)
+(synchronize = 537314871)
+(synchronized = 537314871)
+(synchronize = 945800411)
+(synchronized = 945800411)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 251063633)
+(synchronized = 251063633)
+(synchronize = 237665168)
+(synchronized = 237665168)
+(synchronize = 336861484)
+(synchronized = 336861484)
+Model Loaded
+0
+(synchronize = 708198585)
+(synchronized = 708198585)
+(synchronize = 414540088)
+(synchronized = 414540088)
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 301906839)
+(synchronized = 301906839)
+(synchronize = 182873425)
+(synchronized = 182873425)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 875847781)
+(synchronized = 875847781)
+(synchronize = 113077867)
+(synchronized = 113077867)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 437978368)
+(synchronized = 437978368)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 552.4966416358948 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 268678624)
+(synchronized = 268678624)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 944579799)
+(synchronized = 944579799)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 561.1416969299316 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 367540559)
+(synchronized = 367540559)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 670784946)
+(synchronized = 670784946)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 557.2884473800659 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 1060511794)
+( synchronized = 1060511794 )
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 476494137)
+(synchronized = 476494137)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 559.3985116481781 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 494392586)
+(synchronized = 494392586)
+Model Loaded
+0
+(synchronize = 732203465)
+(synchronized = 732203465)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 567.3292317390442 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 550801562)
+(synchronized = 550801562)
+Model Loaded
+0
+(synchronize = 618233168)
+(synchronized = 618233168)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 573.4496748447418 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 842245436)
+(synchronized = 842245436)
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 78531963)
+(synchronized = 78531963)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 571.3690814971924 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 663607539)
+(synchronized = 663607539)
+Model Loaded
+0
+(synchronize = 382587828)
+(synchronized = 382587828)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 556.5617291927338 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 273421262)
+(synchronized = 273421262)
+Model Loaded
+0
+(synchronize = 236132317)
+(synchronized = 236132317)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 565.6317665576935 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 683174464)
+(synchronized = 683174464)
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 918703572)
+(synchronized = 918703572)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 514.484206199646 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 534971944)
+(synchronized = 534971944)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 679036683)
+(synchronized = 679036683)
+(synchronize = 528962419)
+(synchronized = 528962419)
+(synchronize = 330901002)
+(synchronized = 330901002)
+Model Loaded
+0
+(synchronize = 226980278)
+(synchronized = 226980278)
+(synchronize = 906951868)
+(synchronized = 906951868)
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 54446949)
+(synchronized = 54446949)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 493.06741738319397 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 114722892)
+(synchronized = 114722892)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 16186656)
+(synchronized = 16186656)
+(synchronize = 867885322)
+(synchronized = 867885322)
+Model Loaded
+0
+(synchronize = 967594547)
+(synchronized = 967594547)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 490.34949707984924 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 899400208)
+(synchronized = 899400208)
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 176382939)
+(synchronized = 176382939)
+(synchronize = 817101548)
+(synchronized = 817101548)
+Model Loaded
+0
+(synchronize = 236669191)
+(synchronized = 236669191)
+(synchronize = 279514459)
+(synchronized = 279514459)
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 435699213)
+(synchronized = 435699213)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 474.62592935562134 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 168934775)
+(synchronized = 168934775)
+Model Loaded
+0
+(synchronize = 35705362)
+(synchronized = 35705362)
+(synchronize = 955859557)
+(synchronized = 955859557)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 12516693)
+(synchronized = 12516693)
+(synchronize = 329395711)
+(synchronized = 329395711)
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 922538084)
+(synchronized = 922538084)
+(synchronize = 974406708)
+(synchronized = 974406708)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 472254712)
+(synchronized = 472254712)
+(synchronize = 1041541681)
+( synchronized = 1041541681 )
+Model Loaded
+0
+(synchronize = 451101654)
+(synchronized = 451101654)
+(synchronize = 76124512)
+(synchronized = 76124512)
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 138847848)
+(synchronized = 138847848)
+(synchronize = 345338271)
+(synchronized = 345338271)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 479957378)
+(synchronized = 479957378)
+(synchronize = 1042034708)
+( synchronized = 1042034708 )
+(synchronize = 728053565)
+(synchronized = 728053565)
+(synchronize = 6378993)
+(synchronized = 6378993)
+(synchronize = 917288419)
+(synchronized = 917288419)
+(synchronize = 805867308)
+(synchronized = 805867308)
+(synchronize = 614918842)
+(synchronized = 614918842)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 595302389)
+(synchronized = 595302389)
+(synchronize = 1001221049)
+( synchronized = 1001221049 )
+(synchronize = 276169504)
+(synchronized = 276169504)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 746860920)
+(synchronized = 746860920)
+(synchronize = 176301924)
+(synchronized = 176301924)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 83240480)
+(synchronized = 83240480)
+(synchronize = 92787134)
+(synchronized = 92787134)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 790128019)
+(synchronized = 790128019)
+(synchronize = 557029815)
+(synchronized = 557029815)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 227083121)
+(synchronized = 227083121)
+(synchronize = 303076364)
+(synchronized = 303076364)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 104656822)
+(synchronized = 104656822)
+(synchronize = 213630440)
+(synchronized = 213630440)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 1044687563)
+( synchronized = 1044687563 )
+(synchronize = 810658236)
+(synchronized = 810658236)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 988997197)
+(synchronized = 988997197)
+(synchronize = 758227675)
+(synchronized = 758227675)
+(synchronize = 795763857)
+(synchronized = 795763857)
+(synchronize = 1047943581)
+( synchronized = 1047943581 )
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 715109942)
+(synchronized = 715109942)
+(synchronize = 966349250)
+(synchronized = 966349250)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 42053607)
+(synchronized = 42053607)
+(synchronize = 962664172)
+(synchronized = 962664172)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 367406980)
+(synchronized = 367406980)
+(synchronize = 38568524)
+(synchronized = 38568524)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 685772476)
+(synchronized = 685772476)
+(synchronize = 214455841)
+(synchronized = 214455841)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 872976552)
+(synchronized = 872976552)
+(synchronize = 1048188277)
+( synchronized = 1048188277 )
+---------------- New prediction context -----------------
+(initialized = void)
+(synchronize = 121405947)
+(synchronized = 121405947)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 586369090)
+(synchronized = 586369090)
+(synchronize = 847565982)
+(synchronized = 847565982)
+(synchronize = 270581046)
+(synchronized = 270581046)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 295470191)
+(synchronized = 295470191)
+(synchronize = 1003665370)
+( synchronized = 1003665370 )
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 335988144)
+(synchronized = 335988144)
+(synchronize = 480179757)
+(synchronized = 480179757)
+(synchronize = 159806448)
+(synchronized = 159806448)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 815102660)
+(synchronized = 815102660)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 560628779)
+(synchronized = 560628779)
+(synchronize = 362653865)
+(synchronized = 362653865)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 848444538)
+(synchronized = 848444538)
+(synchronize = 530488196)
+(synchronized = 530488196)
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 684858737)
+(synchronized = 684858737)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 243.61955785751343 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 813210859)
+(synchronized = 813210859)
+Model Loaded
+0
+(synchronize = 1033014995)
+( synchronized = 1033014995 )
+(synchronize = 553228915)
+(synchronized = 553228915)
+Model Loaded
+0
+(synchronize = 137785253)
+(synchronized = 137785253)
+---------------- New prediction context -----------------
+(initialized = void)
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+[": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy", ": Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ", ': IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx', ': IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption', ': IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?']
+
+SAMPLE
+ OUTPUT
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy 
+1
+ : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+ OUTPUT : Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ 
+1
+ : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+ OUTPUT : IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx 
+1
+ : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+ OUTPUT : IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption 
+1
+ : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+ OUTPUT : IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros? 
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R' y x) OUTPUT easy
+: Type, R : (Relation_Definitions.relation A), R' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R'), x : A, WF' : (forall y : A, R y x -> Acc R' y), y : A, Ryx : (R' y x) |- (R y x) OUTPUT apply EQ
+: IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx
+: IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \/ B), HC : C, H : A |- A OUTPUT assumption
+: IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?
+Prediction takes 235.72530794143677 seconds
+RESPONSE
+( textPrediction = [
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R\' y x) OUTPUT easy",
+      confidence = 0.5 ),
+    ( tacticText = ": Type, R : (Relation_Definitions.relation A), R\' : (Relation_Definitions.relation A), EQ : (relation_equivalence R R\'), x : A, WF\' : (forall y : A, R y x -> Acc R\' y), y : A, Ryx : (R\' y x) |- (R y x) OUTPUT apply EQ",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Type, P : (A -> Prop), InhA : A, Hx : (exists x : A, P x) |- (exists x : A, P x) OUTPUT exact Hx",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises, A : Prop, B : Prop, C : Prop, HCAB : (C -> A \\/ B), HC : C, H : A |- A OUTPUT assumption",
+      confidence = 0.5 ),
+    ( tacticText = ": IndependenceOfGeneralPremises |- DrinkerParadox OUTPUT intros?",
+      confidence = 0.5 ) ] )
+(synchronize = 925902831)
+(synchronized = 925902831)
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+starting proving server with connection through their stdin
+using textmode optiongraph
+Model Loaded
+0
+(synchronize = 1023585761)
+( synchronized = 1023585761 )
+Model Loaded
+0
+(synchronize = 523375389)
+(synchronized = 523375389)
+Model Loaded
+0
+(synchronize = 522957538)
+(synchronized = 522957538)
+(synchronize = 426021158)
+(synchronized = 426021158)
