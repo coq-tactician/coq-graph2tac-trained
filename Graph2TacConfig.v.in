@@ -1,2 +1,2 @@
-Unset Tactician Neural Truncate.
+Set Tactician Neural Textmode.
 Set Tactician Neural Executable "g2t-server-text --model %{share}%/%{name}%/model/pytorch_model.bin --tokenizer=%{share}%/%{name}%/tokenizer/ --beam_width=5".
