@@ -2,6 +2,6 @@
 set -ue
 python3 -m venv ./venv
 . ./venv/bin/activate
-pip install git+ssh://git@github.com/IBM/graph2tac.git@d3eb34967874adc41bc57a17a37fe7905278f8d3
+pip install git+ssh://git@github.com/IBM/graph2tac.git@ced88642fe640397630d07d167f24242b34325a4
 pip install tensorflow==2.9
 pip install tensorflow-gnn==0.2
