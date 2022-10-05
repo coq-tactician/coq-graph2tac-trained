@@ -63,7 +63,7 @@ depends: [
 
 extra-source "model.tar.gz" {
   src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_small_test/checkpoint-144000.tar.gz"
-  checksum: "200e6ff9174bdbdacd27a7408d312b8e"  
+  checksum: "e5ab0206bfaa3264eac83bb38b02410e"  
 }
 extra-source "merges.txt" {
   src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_small_test/merges.txt"
