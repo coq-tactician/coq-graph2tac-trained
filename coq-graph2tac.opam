@@ -47,20 +47,33 @@ depends: [
 ]
 # md5sum [file]
 
+#extra-source "model.tar.gz" {
+#  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_first_benchmark/checkpoint-760000.tar.gz"
+#  checksum: "82ae86304d20eeab5edea0e80066fdba"  
+#}
+#extra-source "merges.txt" {
+#  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_first_benchmark/merges.txt"
+#  checksum: "a67d75e02d3697ebf1813805e4e7af97"
+#}
+
+#extra-source "vocab.json" {
+#  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_first_benchmark/vocab.json"
+#  checksum: "dd767ef9a25e4bbce7d68c0912d3149b"
+#}
+
 extra-source "model.tar.gz" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_first_benchmark/checkpoint-760000.tar.gz"
-  checksum: "82ae86304d20eeab5edea0e80066fdba"  
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_small_test/checkpoint-144000.tar.gz"
+  checksum: "200e6ff9174bdbdacd27a7408d312b8e"  
 }
 extra-source "merges.txt" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_first_benchmark/merges.txt"
-  checksum: "a67d75e02d3697ebf1813805e4e7af97"
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_test_small/merges.txt"
+  checksum: "26bb32b5da07467b5fe21eb32477d7b0"
 }
 
 extra-source "vocab.json" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_first_benchmark/vocab.json"
-  checksum: "dd767ef9a25e4bbce7d68c0912d3149b"
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_test_small/vocab.json"
+  checksum: "5f5d0932f1eaeb9aa39d133c3a573550"
 }
-
 substs: [
   "Graph2TacConfig.v"
 ]
