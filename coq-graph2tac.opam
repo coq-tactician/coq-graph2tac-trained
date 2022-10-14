@@ -14,17 +14,17 @@ homepage: "https://coq-tactician.github.io"
 bug-reports:
   "https://github.com/pestun/graph2tac/issues"
 build: [
-  [ "tar" "xzf" "model.tar.gz" "--one-top-level" "--strip-components" "1" ]
+  [ "tar" "-xzf" "model.tar.gz" "--one-top-level" "--strip-components" "1" ]
 ]
 install: [
-  [ "mkdir" "--parents" "%{share}%/%{name}%/" ]
+  [ "mkdir" "-p" "%{share}%/%{name}%/" ]
   [ "cp" "-r" "model/" "%{share}%/%{name}%/" ]
 
   [ "cp" "Graph2TacConfig.v" "%{lib}%/coq/user-contrib/Tactician/Graph2TacConfig.v" ]
 
   # We have to make sure that our injection flags get loaded after the injection flags of coq-tactician-reinforce.
   # We do this by using a name that is guaranteed to sort after coq-tactician-reinforce.
-  [ "mkdir" "--parents" "%{share}%/coq-tactician/plugins/coq-tactician-reinforce-%{name}%/" ]
+  [ "mkdir" "-p" "%{share}%/coq-tactician/plugins/coq-tactician-reinforce-%{name}%/" ]
   [ "cp" "injection-flags" "%{share}%/coq-tactician/plugins/coq-tactician-reinforce-%{name}%/" ]
 ]
 dev-repo: "git+https://github.com/pestun/graph2tac.git"
