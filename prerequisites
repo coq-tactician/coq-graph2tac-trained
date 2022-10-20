@@ -2,4 +2,4 @@
 set -ue
 python3 -m venv ./venv
 . ./venv/bin/activate
-pip install git+ssh://git@github.com/JellePiepenbrock/graph2tac.git@d1c6194d7b59050a3ddb6330a19c0ce0b4964f95
+pip install git+ssh://git@github.com/JellePiepenbrock/graph2tac.git@099d46ff06e4c434c8cd423dc0be34f7f99704dd
