@@ -2,4 +2,4 @@
 set -ue
 python3 -m venv ./venv
 . ./venv/bin/activate
-pip install git+ssh://git@github.com/pestun/ibm-graph2tac.git@2878d7cb323fba27951b261388c1df1adc0fdca7
+pip install git+ssh://git@github.com/pestun/ibm-graph2tac.git@4a48b7961c4e2bdf1d71afb2ed1d4f0d85f103e5
