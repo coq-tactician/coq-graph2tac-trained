@@ -13,16 +13,11 @@ authors: [
 homepage: "https://coq-tactician.github.io"
 bug-reports:
   "https://github.com/pestun/graph2tac/issues"
-build: [
-  [ "tar" "xzf" "model.tar.gz" "--one-top-level" "--strip-components" "1" ]
-]
-# merges + vocab
+
 install: [
   [ "mkdir" "--parents" "%{share}%/%{name}%/" ]
-  [ "cp" "-r" "model/" "%{share}%/%{name}%/" ]
-  [ "mkdir" "%{share}%/%{name}%/tokenizer/" ]
-  [ "cp" "vocab.json" "%{share}%/%{name}%/tokenizer/vocab.json" ]
-  [ "cp" "merges.txt" "%{share}%/%{name}%/tokenizer/merges.txt" ]
+  [ "mkdir" "%{share}%/%{name}%/dict/" ]
+  [ "cp" "answers.pkl" "%{share}%/%{name}%/dict/answers.pkl" ]
   [ "cp" "Graph2TacConfig.v" "%{lib}%/coq/user-contrib/Tactician/Graph2TacConfig.v" ]
 
   # We have to make sure that our injection flags get loaded after the injection flags of coq-tactician-reinforce.
@@ -61,17 +56,18 @@ depends: [
 #  checksum: "dd767ef9a25e4bbce7d68c0912d3149b"
 #}
 
-extra-source "model.tar.gz" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_small_test/checkpoint-144000.tar.gz"
-  checksum: "e5ab0206bfaa3264eac83bb38b02410e"  
-}
-extra-source "merges.txt" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_small_test/merges.txt"
-  checksum: "26bb32b5da07467b5fe21eb32477d7b0"
-}
+#extra-source "model.tar.gz" {
+#  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_small_test/checkpoint-144000.tar.gz"
+#  checksum: "e5ab0206bfaa3264eac83bb38b02410e"  
+#}
 
-extra-source "vocab.json" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_small_test/vocab.json"
+#extra-source "merges.txt" {
+#  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/text-dict-server/merges.txt"
+#  checksum: "26bb32b5da07467b5fe21eb32477d7b0"
+#}
+
+extra-source "answers.pkl" {
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/text-dict-server/answers.pkl"
   checksum: "5f5d0932f1eaeb9aa39d133c3a573550"
 }
 substs: [
