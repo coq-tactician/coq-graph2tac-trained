@@ -1,6 +1,0 @@
-  Running command git clone --filter=blob:none --quiet 'ssh://****@github.com/JellePiepenbrock/graph2tac.git' /tmp/pip-req-build-kq3d8cto
-  Running command git rev-parse -q --verify 'sha^eaacfd52cc9967fadf431ea220724cae8865cae9'
-  Running command git fetch -q 'ssh://****@github.com/JellePiepenbrock/graph2tac.git' eaacfd52cc9967fadf431ea220724cae8865cae9
-  Running command git checkout -q eaacfd52cc9967fadf431ea220724cae8865cae9
-WARNING: You are using pip version 22.0.4; however, version 22.2.2 is available.
-You should consider upgrading via the '/tmp/tactician.tmp.Zbqinw/target-source/venv/bin/python3 -m pip install --upgrade pip' command.
