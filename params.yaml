@@ -1,11 +1,11 @@
 coq_tactician_commit: d46eea21558d382888fc5a25e238af3be31c9a00
 coq_tactician_reinforce_commit: 50af450bdbb181d4bcecac17f337df81cb8f3b68
-description: v12-unshared_stdlib_extlib-highschool-100_update-new-defs
+description: v12-unshared_stdlib_extlib-highschool-100_update-no-defs
 graph2tac_path: git+ssh://git@github.com/pestun/ibm-graph2tac.git@5c8fd2d67d0d79f7403075669026f8dea579eda1
 injection_lines:
 - Unset Tactician Neural Truncate.
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --tactic_expand_bound=8 --total_expand_bound=10
-  --search_expand_bound=100 --update_new_definitions".
+  --search_expand_bound=100".
 model_md5sum: 3239f6d8450a64954606aacc8253b85b
 model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2022-11-04_F_tfgnn_v12-unshared_stdlib_epoch500.3239f6d8450a64954606aacc8253b85b.tar.gz
