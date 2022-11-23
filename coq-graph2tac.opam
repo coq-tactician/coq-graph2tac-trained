@@ -14,28 +14,28 @@ homepage: "https://coq-tactician.github.io"
 bug-reports:
   "https://github.com/pestun/graph2tac/issues"
 build: [
-  [ "tar" "xzf" "model.tar.gz" "--one-top-level" "--strip-components" "1" ]
+  [ "tar" "-xzf" "model.tar.gz" "--one-top-level" "--strip-components" "1" ]
 ]
 install: [
-  [ "mkdir" "--parents" "%{share}%/%{name}%/" ]
+  [ "mkdir" "-p" "%{share}%/%{name}%/" ]
   [ "cp" "-r" "model/" "%{share}%/%{name}%/" ]
 
   [ "cp" "Graph2TacConfig.v" "%{lib}%/coq/user-contrib/Tactician/Graph2TacConfig.v" ]
 
   # We have to make sure that our injection flags get loaded after the injection flags of coq-tactician-reinforce.
   # We do this by using a name that is guaranteed to sort after coq-tactician-reinforce.
-  [ "mkdir" "--parents" "%{share}%/coq-tactician/plugins/coq-tactician-reinforce-%{name}%/" ]
+  [ "mkdir" "-p" "%{share}%/coq-tactician/plugins/coq-tactician-reinforce-%{name}%/" ]
   [ "cp" "injection-flags" "%{share}%/coq-tactician/plugins/coq-tactician-reinforce-%{name}%/" ]
 ]
 dev-repo: "git+https://github.com/pestun/graph2tac.git"
 pin-depends: [
   [
     "coq-tactician.8.11.dev"
-    "git+https://github.com/coq-tactician/coq-tactician.git#60636272bb74cd0f136ccd4e66822c83184817fa"
+    "git+https://github.com/coq-tactician/coq-tactician.git#d46eea21558d382888fc5a25e238af3be31c9a00"
   ]
   [
     "coq-tactician-reinforce.8.11.dev"
-    "git+ssh://git@github.com/coq-tactician/coq-tactician-reinforce.git#3a9d30875a7b397d838b50b8277671da61db1570"
+    "git+ssh://git@github.com/coq-tactician/coq-tactician-reinforce.git#3190a8fcb4a8c1ea4e6b5d50d85e74842309d3b1"
   ]
 ]
 depends: [
@@ -43,8 +43,8 @@ depends: [
   "coq-tactician"
 ]
 extra-source "model.tar.gz" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2022-06-13_vasily_run_400_epoch_256.tar.gz"
-  checksum: "md5=4434c615d3f29bfe8e539d4b772cfdc8"
+  src: "http:/64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2022-11-22_A_get_jobs_working_better_epoch2.eb46b471f40ae903acfa872fd462b129.tar.gz"
+  checksum: "md5=eb46b471f40ae903acfa872fd462b129"
 }
 substs: [
   "Graph2TacConfig.v"
