@@ -63,16 +63,16 @@ depends: [
 
 extra-source "model.tar.gz" {
   src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_share_1512/checkpoint-507000.tar.gz"
-  checksum: "36c81dc09815764de3833f23a3c1d618"  
+  checksum: "89ceee1900bc74b6a6ad3c039ad3710a"  
 }
 extra-source "merges.txt" {
   src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_share_1512/merges.txt"
-  checksum: "26bb32b5da07467b5fe21eb32477d7b0"
+  checksum: "fd2893d44d789730e9c15162a85dee28"
 }
 
 extra-source "vocab.json" {
   src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_share_1512/vocab.json"
-  checksum: "5f5d0932f1eaeb9aa39d133c3a573550"
+  checksum: "950ce4aac69f0578f07323e02b1cc98e"
 }
 substs: [
   "Graph2TacConfig.v"
