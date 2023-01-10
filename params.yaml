@@ -1,7 +1,7 @@
 coq_tactician_commit: d46eea21558d382888fc5a25e238af3be31c9a00
 coq_tactician_reinforce_commit: f6992c129ad99aa47fb80a6322f6ead5e86bda92
 description: tfgnn_v13-shared_stdlib_main_better-params_update-no-defs
-graph2tac_path: git+https://github.com/IBM/graph2tac.git@923daed520b333a5809e8ce09a0042437248507e
+graph2tac_path: git+https://github.com/IBM/graph2tac.git@b812ff37ef5d5d9334fe5d2eec0feb0c69796979
 injection_lines:
 - Unset Tactician Neural Truncate.
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
