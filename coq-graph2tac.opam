@@ -44,7 +44,7 @@ depends: [
 ]
 extra-source "model.tar.gz" {
   src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-01-08_E_tfgnn_v13-shared_stdlib_recompute-emb_no-def-name_epoch68.b99a366f16bf061518fc692f09dc7b10.tar.gz"
-  checksum: "md5=e8bf2600b8010b6a42d9f3ed399d7c6d"
+  checksum: "md5=b99a366f16bf061518fc692f09dc7b10"
 }
 substs: [
   "Graph2TacConfig.v"
