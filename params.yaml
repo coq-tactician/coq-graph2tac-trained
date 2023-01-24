@@ -1,7 +1,7 @@
 coq_tactician_commit: d46eea21558d382888fc5a25e238af3be31c9a00
 coq_tactician_reinforce_commit: 99d63511749ef391db985d7094bce710f115f396
-description: tfgnn_v14_ministdlib_c-loader_c-server_ministdlib-166_update-new-defs
-graph2tac_path: git+https://github.com/IBM/graph2tac.git@0d2b9f8f466744d86962a9532a5fd485a938eca5
+description: tfgnn_v14_ministdlib_c-loader_py-server_ministdlib-166_update-new-defs
+graph2tac_path: git+https://github.com/IBM/graph2tac.git@2b453114a3e0629c2362bb501b5d45f463620f92
 injection_lines:
 - Unset Tactician Neural Truncate.
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
