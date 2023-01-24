@@ -1,11 +1,11 @@
 coq_tactician_commit: d46eea21558d382888fc5a25e238af3be31c9a00
-coq_tactician_reinforce_commit: f6992c129ad99aa47fb80a6322f6ead5e86bda92
-description: tfgnn_v13_ministdlib_main_ministdlib-166_update-new-defs
-graph2tac_path: git+https://github.com/IBM/graph2tac.git@b812ff37ef5d5d9334fe5d2eec0feb0c69796979
+coq_tactician_reinforce_commit: 99d63511749ef391db985d7094bce710f115f396
+description: tfgnn_v14_ministdlib_c-loader_c-server_ministdlib-166_update-new-defs
+graph2tac_path: git+https://github.com/IBM/graph2tac.git@0d2b9f8f466744d86962a9532a5fd485a938eca5
 injection_lines:
 - Unset Tactician Neural Truncate.
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --tactic_expand_bound=8 --total_expand_bound=10
   --search_expand_bound=100 --update-new-definitions".
-model_md5sum: db46dc537e7ea4b730cd56774b0ed39f
-model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-01-23_C_v13_ministdlib_epoch100.db46dc537e7ea4b730cd56774b0ed39f.tar.gz
+model_md5sum: 41f9650b225b61c9164c888ac8a05113
+model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-01-23_B_v14_ministdlib_epoch100.41f9650b225b61c9164c888ac8a05113.tar.gz
