@@ -43,7 +43,7 @@ depends: [
   "coq-tactician"
 ]
 extra-source "model.tar.gz" {
-  src: "http:/64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-01-23_A_v14_ministdlib_py-server_epoch100.35e534fa0d66479624b2105648b98daa.tar.gz"
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-01-23_A_v14_ministdlib_py-server_epoch100.35e534fa0d66479624b2105648b98daa.tar.gz"
   checksum: "md5=35e534fa0d66479624b2105648b98daa"
 }
 substs: [
