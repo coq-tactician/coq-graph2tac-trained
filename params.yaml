@@ -1,6 +1,6 @@
 coq_tactician_commit: d46eea21558d382888fc5a25e238af3be31c9a00
 coq_tactician_reinforce_commit: 3190a8fcb4a8c1ea4e6b5d50d85e74842309d3b1
-description: Test benchmark on stdlib 100 theorems
+description: Test benchmark on one theorem
 graph2tac_path: git+ssh://git@github.com/pestun/ibm-graph2tac.git@2878d7cb323fba27951b261388c1df1adc0fdca7
 injection_lines:
 - Unset Tactician Neural Truncate.
