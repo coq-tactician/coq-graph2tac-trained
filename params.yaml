@@ -1,6 +1,6 @@
 coq_tactician_commit: d46eea21558d382888fc5a25e238af3be31c9a00
 coq_tactician_reinforce_commit: f6992c129ad99aa47fb80a6322f6ead5e86bda92
-description: tfgnn_v13-shared_stdlib_updated_no-def-task_extlib-highschool-100_update-no-defs
+description: tfgnn_v13-shared_stdlib_updated_no-def-task_hmodel-good-100_update-no-defs
 graph2tac_path: git+https://github.com/IBM/graph2tac.git@9099c8c26006c9f58bd0dd47dfbbd542e3eab9ac
 injection_lines:
 - Unset Tactician Neural Truncate.
