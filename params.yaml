@@ -8,4 +8,4 @@ injection_lines:
   --log_level=summary --tf_log_level=critical --tactic_expand_bound=8 --total_expand_bound=10
   --search_expand_bound=100 --update-all-definitions".
 model_md5sum: adcf8a8c2f2ef01d6c8e6c5e238ad9de
-model_source_url: http:/64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-01-21_B_tfgnn_v13-shared_stdlib_updated_names_epoch500.adcf8a8c2f2ef01d6c8e6c5e238ad9de.tar.gz
+model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-01-21_B_tfgnn_v13-shared_stdlib_updated_names_epoch500.adcf8a8c2f2ef01d6c8e6c5e238ad9de.tar.gz
