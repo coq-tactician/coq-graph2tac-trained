@@ -1,11 +1,11 @@
 coq_tactician_commit: d46eea21558d382888fc5a25e238af3be31c9a00
 coq_tactician_reinforce_commit: 68e5faa3309c662200444e83d621951556052170
-description: tfgnn_v14_stdlib_py-loader_names_stdlib-hmodel-100_update-all-defs
+description: tfgnn_v14_stdlib_py-loader_names_stdlib-hmodel-100_update-new-defs
 graph2tac_path: git+https://github.com/IBM/graph2tac.git@5226339ffae0190f17e14879ba654ac104127177
 injection_lines:
 - Unset Tactician Neural Truncate.
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --tactic_expand_bound=8 --total_expand_bound=10
-  --search_expand_bound=100 --update_all_definitions".
+  --search_expand_bound=100 --update_new_definitions".
 model_md5sum: 9d8f1f4ae5875c7cc16305864012cf4e
 model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-02-02_B_tfgnn_v14_stdlib_py-loader_names_epoch500.9d8f1f4ae5875c7cc16305864012cf4e.tar.gz
