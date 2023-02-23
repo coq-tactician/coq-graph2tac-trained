@@ -1,11 +1,11 @@
 coq_tactician_commit: d46eea21558d382888fc5a25e238af3be31c9a00
 coq_tactician_reinforce_commit: 68e5faa3309c662200444e83d621951556052170
-description: 2023-02-23_G_tfgnn_stdlib_simplify2-early-commit_names_epoch5
-graph2tac_path: git+https://github.com/IBM/graph2tac.git@c60753c98ea9230b6f95df76c96d85bb847c0dcd
+description: 2023-02-23_J_tfgnn_stdlib_simplify2-early-commit_names_epoch5
+graph2tac_path: git+https://github.com/IBM/graph2tac.git@9072c927953120c9ffddab81adae7ca0193d8869
 injection_lines:
 - Unset Tactician Neural Truncate.
 - Set Tactician Neural Executable "g2t-py-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --tactic_expand_bound=8 --total_expand_bound=10
   --search_expand_bound=100 --update_new_definitions".
-model_md5sum: c665567b4309e08b3ad0e79a84f410c0
-model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-02-23_G_tfgnn_stdlib_simplify2-early-commit_names_epoch5.c665567b4309e08b3ad0e79a84f410c0.tar.gz
+model_md5sum: 028e7ca3f13b5a15ee79234b6f259544
+model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-02-23_J_tfgnn_stdlib_simplify2-early-commit_names_epoch5.028e7ca3f13b5a15ee79234b6f259544.tar.gz
