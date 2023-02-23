@@ -43,8 +43,8 @@ depends: [
   "coq-tactician"
 ]
 extra-source "model.tar.gz" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-02-18_B_tfgnn_v14_main_names_epoch264.9076b15a7e4c536a35ef71c0592c90cc.tar.gz"
-  checksum: "md5=9076b15a7e4c536a35ef71c0592c90cc"
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-02-18_B_tfgnn_v14_main_names_epoch392.f054f2d8c927fb09f28252018b5137d0.tar.gz"
+  checksum: "md5=f054f2d8c927fb09f28252018b5137d0"
 }
 substs: [
   "Graph2TacConfig.v"
