@@ -1,11 +1,11 @@
 coq_tactician_commit: d46eea21558d382888fc5a25e238af3be31c9a00
 coq_tactician_reinforce_commit: 68e5faa3309c662200444e83d621951556052170
-description: 2023-02-22_F_tfgnn_stdlib_simplify2_names_epoch265
-graph2tac_path: git+https://github.com/IBM/graph2tac.git@6b6674883e7b56058f0487b9cc708c71844901bc
+description: 2023-02-23_P_tfgnn_stdlib_simplify2-c03a-shuffle-fix_names_epoch5
+graph2tac_path: git+https://github.com/IBM/graph2tac.git@4b0edb761d92fa274f15f520dfaf5a17b88a71cf
 injection_lines:
 - Unset Tactician Neural Truncate.
 - Set Tactician Neural Executable "g2t-py-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --tactic_expand_bound=8 --total_expand_bound=10
   --search_expand_bound=100 --update_new_definitions".
-model_md5sum: 3745579e94cbd0af7498a6d41b0d26cb
-model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-02-22_F_tfgnn_stdlib_simplify2_names_epoch265.3745579e94cbd0af7498a6d41b0d26cb.tar.gz
+model_md5sum: 9ac2ccd747876fc88ad3609e5fd7d1c9
+model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-02-23_P_tfgnn_stdlib_simplify2-c03a-shuffle-fix_names_epoch5.9ac2ccd747876fc88ad3609e5fd7d1c9.tar.gz
