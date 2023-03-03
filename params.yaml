@@ -1,11 +1,11 @@
 coq_tactician_commit: d46eea21558d382888fc5a25e238af3be31c9a00
 coq_tactician_reinforce_commit: 5532831574e0279733501b2bdaa3d4ed09ca0c74
-description: tfgnn_v14_stdlib_main_names_stdlib-100_update-new-defs
+description: tfgnn_v14_stdlib_main_names_stdlib-good-100_update-all-defs
 graph2tac_path: git+https://github.com/IBM/graph2tac.git@8480cf1f7a10bbf66ce6312a74f7578015c4b44d
 injection_lines:
 - Unset Tactician Neural Truncate.
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --tactic_expand_bound=8 --total_expand_bound=10
-  --search_expand_bound=100 --update_new_definitions".
+  --search_expand_bound=100 --update_all_definitions".
 model_md5sum: 9ed1787a70c42571b3baa5ad70c0f037
 model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-02-25_T_tfgnn_stdlib_main_names_epoch500.9ed1787a70c42571b3baa5ad70c0f037.tar.gz
