@@ -62,17 +62,17 @@ depends: [
 #}
 
 extra-source "model.tar.gz" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_share_280223/checkpoint-154560.tar.gz"
-  checksum: "ae0fb718cd8c02211a85a5692af9b473"  
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_share_060323/checkpoint-244720.tar.gz"
+  checksum: "4569afab96fd56757529e34911313e2d"  
 }
 extra-source "merges.txt" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_share_280223/merges.txt"
-  checksum: "8119a354b4c95a6f0c8f266a344c6d68"
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_share_060323/merges.txt"
+  checksum: "75928195ffcdcb0cf600fe8ac99e8035"
 }
 
 extra-source "vocab.json" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_share_280223/vocab.json"
-  checksum: "d8e3469ac90b77238100e8f4d5e91194"
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_share_060323/vocab.json"
+  checksum: "5b39af12f9d92d9b957e38e7b5700715"
 }
 substs: [
   "Graph2TacConfig.v"
