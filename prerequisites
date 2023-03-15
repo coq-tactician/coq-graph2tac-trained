@@ -2,4 +2,4 @@
 set -ue
 python3 -m venv ./venv
 . ./venv/bin/activate
-pip install git+https://github.com/IBM/graph2tac.git@d8f2951fd193bcbf069ec8c72d7b97e2ed8a4c53
+pip install git+https://github.com/IBM/graph2tac.git@8480cf1f7a10bbf66ce6312a74f7578015c4b44d
