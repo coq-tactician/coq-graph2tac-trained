@@ -7,5 +7,5 @@ injection_lines:
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --tactic_expand_bound=8 --total_expand_bound=10
   --search_expand_bound=100 --update_new_definitions".
-model_md5sum: a5701881ed2affd2e8ba094a3992de57
-model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-04-14_A_tfgnn_v15_stdlib_v15_names_epoch500.a5701881ed2affd2e8ba094a3992de57.tar.gz
+model_md5sum: 5e7586203303e1c0acfbcbbfabca9cc9
+model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-04-14_B_tfgnn_v15_stdlib_v15_names_exclude-bad-data_epoch500.5e7586203303e1c0acfbcbbfabca9cc9.tar.gz
