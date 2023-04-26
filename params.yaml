@@ -1,6 +1,6 @@
 coq_tactician_commit: 125ec9c1f7e14b62bf9c7f809b4277e2e6055d53
 coq_tactician_reinforce_commit: 623952029b0b5e997c08634ba09bb549a0015a0a
-description: tfgnn_opam-training_main_names_opam-test-100_update-new-defs
+description: tfgnn_opam-training_main_names_opam-test-170_update-new-defs
 graph2tac_path: git+https://github.com/LasseBlaauwbroek/graph2tac.git@4873a86797696e52efa81c938b65f8db4c5bc22c
 injection_lines:
 - Unset Tactician Neural Truncate.
