@@ -35,7 +35,7 @@ pin-depends: [
   ]
   [
     "coq-tactician-reinforce.8.11.dev"
-    "git+ssh://git@github.com/coq-tactician/coq-tactician-reinforce.git#623952029b0b5e997c08634ba09bb549a0015a0a"
+    "git+ssh://git@github.com/coq-tactician/coq-tactician-reinforce.git#f3337580a26f5ce3dc14432505daba1ec66a5964"
   ]
 ]
 depends: [
@@ -43,8 +43,8 @@ depends: [
   "coq-tactician"
 ]
 extra-source "model.tar.gz" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-04-20_C_tfgnn_v15_opam-training_main_no-names_epoch65.1649d986f0f2188f7433ac834b9d2a5d.tar.gz"
-  checksum: "md5=1649d986f0f2188f7433ac834b9d2a5d"
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-05_04_A_tfgnn_v15_opam-training_main_no-def_continued_epoch290.9764308d190766faf03c9a586bc77022.tar.gz"
+  checksum: "md5=9764308d190766faf03c9a586bc77022"
 }
 substs: [
   "Graph2TacConfig.v"
