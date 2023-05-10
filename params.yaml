@@ -1,7 +1,7 @@
 coq_tactician_commit: 125ec9c1f7e14b62bf9c7f809b4277e2e6055d53
-coq_tactician_reinforce_commit: f3337580a26f5ce3dc14432505daba1ec66a5964
+coq_tactician_reinforce_commit: 623952029b0b5e997c08634ba09bb549a0015a0a
 description: tfgnn_v15_stdlib_wip_names_hmodel-good-100_update-new-defs
-graph2tac_path: git+https://github.com/IBM/graph2tac.git@d96c486924bc24e96ad317eb11fa9c0dbe274ccb
+graph2tac_path: git+https://github.com/IBM/graph2tac.git@02caf12b5833893678b51c03d4d745a608b0c6ca
 injection_lines:
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --tactic_expand_bound=8 --total_expand_bound=10
