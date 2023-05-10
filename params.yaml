@@ -1,11 +1,11 @@
 coq_tactician_commit: 125ec9c1f7e14b62bf9c7f809b4277e2e6055d53
 coq_tactician_reinforce_commit: 623952029b0b5e997c08634ba09bb549a0015a0a
-description: 2023-05_04_A_tfgnn_v15_opam-training_main_no-def_continued_epoch330
+description: 2023-04-20_C_tfgnn_v15_opam-training_main_no-names_epoch225
 graph2tac_path: git+https://github.com/LasseBlaauwbroek/graph2tac.git@9b59ddf318def957f9ad9e308d9183be0055a37f
 injection_lines:
 - Unset Tactician Neural Truncate.
 - Set Tactician Neural Executable "g2t-py-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --tactic_expand_bound=8 --total_expand_bound=10
   --search_expand_bound=100 --update_new_definitions".
-model_md5sum: 59ee1a39d908e5eb1c16bd8a2f259c2e
-model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-05_04_A_tfgnn_v15_opam-training_main_no-def_continued_epoch330.59ee1a39d908e5eb1c16bd8a2f259c2e.tar.gz
+model_md5sum: 32db793ef9456534113bcba8ea6d41d6
+model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-04-20_C_tfgnn_v15_opam-training_main_no-names_epoch225.32db793ef9456534113bcba8ea6d41d6.tar.gz
