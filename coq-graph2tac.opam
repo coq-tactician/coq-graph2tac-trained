@@ -34,7 +34,7 @@ dev-repo: "git+https://github.com/pestun/graph2tac.git"
 pin-depends: [
   [
     "coq-tactician.8.11.dev"
-    "git+https://github.com/coq-tactician/coq-tactician.git#d46eea21558d382888fc5a25e238af3be31c9a00"
+    "git+https://github.com/coq-tactician/coq-tactician.git#88b2bd41c5526933784e9686b21af311c783c4bf"
   ]
   [
     "coq-tactician-reinforce.8.11.dev"
