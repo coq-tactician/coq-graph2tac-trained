@@ -35,7 +35,7 @@ pin-depends: [
   ]
   [
     "coq-tactician-reinforce.8.11.dev"
-    "git+ssh://git@github.com/coq-tactician/coq-tactician-reinforce.git#623952029b0b5e997c08634ba09bb549a0015a0a"
+    "git+ssh://git@github.com/coq-tactician/coq-tactician-reinforce.git#f3337580a26f5ce3dc14432505daba1ec66a5964"
   ]
 ]
 depends: [
