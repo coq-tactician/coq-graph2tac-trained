@@ -1,2 +1,2 @@
 Set Tactician Neural Textmode.
-Set Tactician Neural Executable "g2t-server-text --dev cpu --pt_threads 1 --temp 0.1 --model %{share}%/%{name}%/model/pytorch_model.bin --tokenizer=%{share}%/%{name}%/tokenizer/ --beam_width=5".
+Set Tactician Neural Executable "g2t-server-text --dev cpu --pt_threads 1 --temp 1.0 --model %{share}%/%{name}%/model/pytorch_model.bin --tokenizer=%{share}%/%{name}%/tokenizer/ --beam_width=5".
