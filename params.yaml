@@ -1,10 +1,10 @@
 coq_tactician_commit: 43c5badf0d0c272b75c68ca67a49428b2adf0184
 coq_tactician_reinforce_commit: e4df10867dbed8e4a03205e6be55cb5fa91128e8
-description: tfgnn_opam-training_main_names_update-all-defs
+description: tfgnn_opam-training_main_no-defs_update-no-defs
 graph2tac_path: git+https://github.com/IBM/graph2tac.git@8ba2f1634fb25aeb5da90a4e5840eee964cc0e19
 injection_lines:
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --cpu-thread-count 1 --tactic_expand_bound=256
-  --search_expand_bound=256 --update_all_definitions".
-model_md5sum: 31dba13a4fea0f72ee0f1c2811386efd
-model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-05-26_B_tfgnn_v15_opam-training_main_names_continued_epoch232.31dba13a4fea0f72ee0f1c2811386efd.tar.gz
+  --search_expand_bound=256 --update_no_definitions".
+model_md5sum: a3a3bd2f9c0375f3b133e7250f57af63
+model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-05_04_A_tfgnn_v15_opam-training_main_no-def_continued_epoch389.a3a3bd2f9c0375f3b133e7250f57af63.tar.gz
