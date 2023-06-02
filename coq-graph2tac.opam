@@ -46,7 +46,7 @@ depends: [
   "coq-tactician"
 ]
 # md5sum [file]
-#
+# #
 #extra-source "model.tar.gz" {
 #  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_first_benchmark/checkpoint-760000.tar.gz"
 #  checksum: "82ae86304d20eeab5edea0e80066fdba"  
