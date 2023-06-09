@@ -71,7 +71,7 @@ extra-source "merges.txt" {
 }
 
 extra-source "vocab.json" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/weights/transformer_share_160523/vocab.json"
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_share_160523/vocab.json"
   checksum: "979153be387076c1b512165958dd728e"
 }
 substs: [
