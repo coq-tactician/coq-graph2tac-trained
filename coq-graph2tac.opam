@@ -66,7 +66,7 @@ extra-source "model.tar.gz" {
   checksum: "a40bc5fd90e045990b9ea8c4aa4c0cf4"
 }
 extra-source "merges.txt" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_share_080623_small/merges.tx"
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/transformer_share_080623_small/merges.txt"
   checksum: "c34dc38c053144bea456068a505da949"
 }
 
