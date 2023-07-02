@@ -1,11 +1,11 @@
 coq_tactician_commit: 125ec9c1f7e14b62bf9c7f809b4277e2e6055d53
 coq_tactician_reinforce_commit: 623952029b0b5e997c08634ba09bb549a0015a0a
-description: 2023-06-30_C_tfgnn_v15_opam-training_main_no-names_lr3-6_def-loss-high_epoch11
+description: 2023-06-30_C_tfgnn_v15_opam-training_main_no-names_from_start_lr3-6_def-loss-high_epoch249
 graph2tac_path: git+https://github.com/LasseBlaauwbroek/graph2tac.git@9b59ddf318def957f9ad9e308d9183be0055a37f
 injection_lines:
 - Unset Tactician Neural Truncate.
 - Set Tactician Neural Executable "g2t-py-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --tactic_expand_bound=8 --total_expand_bound=10
   --search_expand_bound=100 --update_new_definitions".
-model_md5sum: 1f744289a2628159f6954f4cef799bd0
-model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-06-30_C_tfgnn_v15_opam-training_main_no-names_lr3-6_def-loss-high_epoch11.1f744289a2628159f6954f4cef799bd0.tar.gz
+model_md5sum: c3bedc3d57cfe3bf0968ce27ee2ec3b2
+model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-06-30_C_tfgnn_v15_opam-training_main_no-names_from_start_lr3-6_def-loss-high_epoch249.c3bedc3d57cfe3bf0968ce27ee2ec3b2.tar.gz
