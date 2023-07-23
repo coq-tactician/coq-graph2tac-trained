@@ -1,6 +1,6 @@
 coq_tactician_commit: 43c5badf0d0c272b75c68ca67a49428b2adf0184
 coq_tactician_reinforce_commit: e4df10867dbed8e4a03205e6be55cb5fa91128e8
-description: tfgnn_v15_stdlib_names_extlib-highschool-100_update-all-defs_epoch100ish
+description: tfgnn_v15_stdlib_names_extlib-highschool-100_update-new-defs_epoch100ish
 graph2tac_path: git+https://github.com/IBM/graph2tac.git@340dfb3dd084bfe19f626e8834908a9b78934d75
 injection_lines:
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
