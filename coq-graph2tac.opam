@@ -31,11 +31,11 @@ dev-repo: "git+https://github.com/pestun/graph2tac.git"
 pin-depends: [
   [
     "coq-tactician.8.11.dev"
-    "git+https://github.com/coq-tactician/coq-tactician.git#125ec9c1f7e14b62bf9c7f809b4277e2e6055d53"
+    "git+https://github.com/coq-tactician/coq-tactician.git#43c5badf0d0c272b75c68ca67a49428b2adf0184"
   ]
   [
     "coq-tactician-reinforce.8.11.dev"
-    "git+ssh://git@github.com/coq-tactician/coq-tactician-reinforce.git#b6594472a547b6f75c3fd8191a5ae7d3b0757b3a"
+    "git+ssh://git@github.com/coq-tactician/coq-tactician-reinforce.git#e4df10867dbed8e4a03205e6be55cb5fa91128e8"
   ]
 ]
 depends: [
@@ -43,8 +43,8 @@ depends: [
   "coq-tactician"
 ]
 extra-source "model.tar.gz" {
-  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-04-14_A_tfgnn_v15_stdlib_v15_names_epoch500.a5701881ed2affd2e8ba094a3992de57.tar.gz"
-  checksum: "md5=a5701881ed2affd2e8ba094a3992de57"
+  src: "http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-04-14_A_tfgnn_v15_stdlib_v15_names_epoch101.c60ac78a8af78e41df8465333fb88abb.tar.gz"
+  checksum: "md5=c60ac78a8af78e41df8465333fb88abb"
 }
 substs: [
   "Graph2TacConfig.v"
