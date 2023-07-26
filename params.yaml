@@ -5,6 +5,6 @@ graph2tac_path: git+https://github.com/IBM/graph2tac.git@8ba2f1634fb25aeb5da90a4
 injection_lines:
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --cpu-thread-count 1 --tactic_expand_bound=256
-  --search_expand_bound=256 --update_new_definitions".
+  --search_expand_bound=256".
 model_md5sum: 93d17ba93bef385a8023a5086bb7636d
 model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-04-20_A_tfgnn_v15_opam-training_main_no-def_epoch38.93d17ba93bef385a8023a5086bb7636d.tar.gz
