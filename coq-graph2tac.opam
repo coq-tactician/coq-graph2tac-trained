@@ -21,8 +21,8 @@ install: [
   [ "mkdir" "--parents" "%{share}%/%{name}%/" ]
   [ "cp" "-r" "model/" "%{share}%/%{name}%/" ]
   [ "mkdir" "%{share}%/%{name}%/tokenizer/" ]
-  [ "cp" "vocab.json" "%{share}%/%{name}%/tokenizer/vocab.json" ]
-  [ "cp" "merges.txt" "%{share}%/%{name}%/tokenizer/merges.txt" ]
+  [ "cp" "model/vocab.json" "%{share}%/%{name}%/tokenizer/vocab.json" ]
+  [ "cp" "model/merges.txt" "%{share}%/%{name}%/tokenizer/merges.txt" ]
   [ "cp" "Graph2TacConfig.v" "%{lib}%/coq/user-contrib/Tactician/Graph2TacConfig.v" ]
 
   # We have to make sure that our injection flags get loaded after the injection flags of coq-tactician-reinforce.
