@@ -1,10 +1,11 @@
 coq_tactician_api_commit: 8ae836d45bd96059c5742db1d3cdd0efd58d3197
 coq_tactician_commit: 9224b136ee7823d4776301035d9455f56c8c16b1
-description: tfgnn_v15_stdlib_names-only_extlib-highschool-100_update-all-defs_epoch200ish
+description: tfgnn_v15_stdlib_names-only_extlib-highschool-100_update-all-defs_epoch200ish_knn
 graph2tac_path: git+https://github.com/IBM/graph2tac.git@00296318f1e78b71c392e4e17d43d005e424c1bc
 injection_lines:
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --cpu-thread-count 1 --tactic_expand_bound=256
-  --search_expand_bound=256 --update_all_definitions".
+  --search_expand_bound=256 --update_all_definitions --knn-proofstep-limit=1000 --knn-only
+  --knn-duplicate-reduction=max".
 model_md5sum: 9f3f5cf305091f7cc2ba423ea7492b7f
 model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-07-21_A_tfgnn_v15_stdlib_v15_names-only_epoch218.9f3f5cf305091f7cc2ba423ea7492b7f.tar.gz
