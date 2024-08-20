@@ -1,6 +1,6 @@
 coq_tactician_api_commit: 8ae836d45bd96059c5742db1d3cdd0efd58d3197
 coq_tactician_commit: 9224b136ee7823d4776301035d9455f56c8c16b1
-description: tfgnn_opam-training_main_no-names_opam-test-170_update-new-defs_knn_learned-embs-for-args_softmax
+description: tfgnn_opam-training_main_no-names_opam-test-100_update-new-defs_knn_learned-embs-for-args_softmax
 graph2tac_path: git+https://github.com/IBM/graph2tac.git@00296318f1e78b71c392e4e17d43d005e424c1bc
 injection_lines:
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
