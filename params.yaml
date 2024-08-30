@@ -1,12 +1,13 @@
 coq_tactician_api_commit: 32a6c98fd71728c06c9111e60835fdbd11eac329
 coq_tactician_commit: 9224b136ee7823d4776301035d9455f56c8c16b1
-description: tfgnn_v15_stdlib_extlib-highschool-100_update-new-defs_knn__learned-embs-for-args_max_cosine_temp1e-1
+description: tfgnn_v15_stdlib_extlib-highschool-100_update-new-defs_knn__learned-embs-for-args_softmax_inner-prod_norm-max-var
 graph2tac_path: git+https://github.com/IBM/graph2tac.git@85fb6b6a96647a5d6b515f357219a2fef9a43e71
 injection_lines:
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --cpu-thread-count 1 --tactic_expand_bound=256
   --search_expand_bound=256 --update_new_definitions --hard-code-arg-pred-logit-temp
-  --knn-proofstep-limit=1000 --knn-dist=cosine --knn-only --knn-duplicate-reduction=max
-  --knn-use-learned-tactic-embeddings-for-arg-prediction --knn-logit-temp=0.1".
+  --knn-proofstep-limit=1000 --knn-dist=inner_prod --knn-duplicate-reduction=softmax
+  --knn-use-learned-tactic-embeddings-for-arg-prediction --knn-logit-normalize-max
+  --knn-logit-normalize-var".
 model_md5sum: a5701881ed2affd2e8ba094a3992de57
 model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-04-14_A_tfgnn_v15_stdlib_v15_names_epoch500.a5701881ed2affd2e8ba094a3992de57.tar.gz
