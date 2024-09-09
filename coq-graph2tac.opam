@@ -18,6 +18,17 @@ build: [
 install: [
 ]
 dev-repo: "git+https://github.com/pestun/graph2tac.git"
+pin-depends: [
+  [
+    "coq-tactician.8.11.dev"
+    "git+https://github.com/coq-tactician/coq-tactician.git#9224b136ee7823d4776301035d9455f56c8c16b1"
+  ]
+  [
+    "coq-tactician-api.8.11.dev"
+    "git+ssh://git@github.com/coq-tactician/coq-tactician-api.git#51ee26444bf347fddfd6b2408167e617b9b33e8b"
+  ]
+]
 depends: [
   "coq-tactician-api"
+  "coq-tactician"
 ]
