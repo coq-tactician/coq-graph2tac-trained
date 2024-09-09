@@ -19,6 +19,5 @@ install: [
 ]
 dev-repo: "git+https://github.com/pestun/graph2tac.git"
 depends: [
-  "coq-tactician-api"
   "coq-tactician"
 ]
