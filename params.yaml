@@ -1,13 +1,12 @@
 coq_tactician_api_commit: 51ee26444bf347fddfd6b2408167e617b9b33e8b
 coq_tactician_commit: 9224b136ee7823d4776301035d9455f56c8c16b1
-description: tfgnn_v15_stdlib_extlib-highschool-100_update-new-defs_knn_noargs_order_cosine_temp6e-2_return1000
+description: tfgnn_v15_stdlib_extlib-highschool-100_update-new-defs_knn_cosine_order_hidden_learned-embs-for-args
 graph2tac_path: git+https://github.com/IBM/graph2tac.git@9e0d9c2bc7df06c41e57bf7581f38993921c9b16
 injection_lines:
-- Unset Tactician Neural TacticArguments.
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
-  --log_level=summary --tf_log_level=critical --cpu-thread-count 1 --tactic_expand_bound=1000
-  --search_expand_bound=1000 --update_new_definitions --hard-code-arg-pred-logit-temp
-  --knn-proofstep-limit=1000 --knn-dist=cosine --knn-only --knn-duplicate-reduction=order
-  --knn-logit-temp=0.06".
+  --log_level=summary --tf_log_level=critical --cpu-thread-count 1 --tactic_expand_bound=256
+  --search_expand_bound=256 --update_new_definitions --hard-code-arg-pred-logit-temp
+  --knn-proofstep-limit=1000 --knn-only --knn-duplicate-reduction=order --knn-use-learned-tactic-embeddings-for-arg-prediction
+  --knn-keys-ignore-tactic-head --knn-dist=cosine".
 model_md5sum: a5701881ed2affd2e8ba094a3992de57
 model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-04-14_A_tfgnn_v15_stdlib_v15_names_epoch500.a5701881ed2affd2e8ba094a3992de57.tar.gz
