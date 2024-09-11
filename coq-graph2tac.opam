@@ -35,7 +35,7 @@ pin-depends: [
   ]
   [
     "coq-tactician-api.8.11.dev"
-    "git+ssh://git@github.com/coq-tactician/coq-tactician-api.git#51ee26444bf347fddfd6b2408167e617b9b33e8b"
+    "git+ssh://git@github.com/coq-tactician/coq-tactician-api.git#b883ae596b9522e471065c908b1b7ba653fd8d7d"
   ]
 ]
 depends: [
