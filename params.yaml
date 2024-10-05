@@ -1,4 +1,4 @@
-coq_tactician_api_commit: b057ec209c843b57a4cce9ff5952cd8a6e2f6c3a
+coq_tactician_api_commit: 2c74b6ae28073c8f3895ebd7816014f5e6771aa3
 coq_tactician_commit: 9224b136ee7823d4776301035d9455f56c8c16b1
 description: tfgnn_opam-training_main_no-names_opam-test-170_update-new-defs_knn_learned-embs-for-args_softmax_cosine_norm-prob-var
 graph2tac_path: git+https://github.com/IBM/graph2tac.git@76b1008b5ba4b7913d198006010514cfc1fe7059
