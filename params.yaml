@@ -1,12 +1,10 @@
-coq_tactician_api_commit: 2c74b6ae28073c8f3895ebd7816014f5e6771aa3
-coq_tactician_commit: 9224b136ee7823d4776301035d9455f56c8c16b1
-description: tfgnn_opam-training_main_no-names_opam-test-170_update-new-defs_knn-only_learned-embs-for-args_softmax_cosine_norm-prob-var
-graph2tac_path: git+https://github.com/IBM/graph2tac.git@76b1008b5ba4b7913d198006010514cfc1fe7059
+coq_tactician_api_commit: e4df10867dbed8e4a03205e6be55cb5fa91128e8
+coq_tactician_commit: 43c5badf0d0c272b75c68ca67a49428b2adf0184
+description: tfgnn_opam-training_main_no-names_opam-test-170_update-new-defs
+graph2tac_path: git+https://github.com/IBM/graph2tac.git@777fc2c0e92adfc1e2bf61e4ba8b01988e3c8ddb
 injection_lines:
 - Set Tactician Neural Executable "g2t-server --arch tfgnn --model %{share}%/%{name}%/model
   --log_level=summary --tf_log_level=critical --cpu-thread-count 1 --tactic_expand_bound=256
-  --search_expand_bound=256 --update_new_definitions --max_tactic_args=10 --knn-proofstep-limit=1000
-  --knn-dist=cosine --knn-only --knn-duplicate-reduction=softmax --knn-use-learned-tactic-embeddings-for-arg-prediction
-  --knn-logit-temp=0.06".
+  --search_expand_bound=256 --update_new_definitions".
 model_md5sum: 746f36f4d45c9557f9d4ec62a0c1e07e
 model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-05-26_C_tfgnn_v15_opam-training_main_no-names_continued_epoch247.746f36f4d45c9557f9d4ec62a0c1e07e.tar.gz
