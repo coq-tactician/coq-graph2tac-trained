@@ -22,24 +22,24 @@ install: [
 
   [ "cp" "Graph2TacConfig.v" "%{lib}%/coq/user-contrib/Tactician/Graph2TacConfig.v" ]
 
-  # We have to make sure that our injection flags get loaded after the injection flags of coq-tactician-reinforce.
-  # We do this by using a name that is guaranteed to sort after coq-tactician-reinforce.
-  [ "mkdir" "-p" "%{share}%/coq-tactician/plugins/coq-tactician-reinforce-%{name}%/" ]
-  [ "cp" "injection-flags" "%{share}%/coq-tactician/plugins/coq-tactician-reinforce-%{name}%/" ]
+  # We have to make sure that our injection flags get loaded after the injection flags of coq-tactician-api.
+  # We do this by using a name that is guaranteed to sort after coq-tactician-api.
+  [ "mkdir" "-p" "%{share}%/coq-tactician/plugins/coq-tactician-api-%{name}%/" ]
+  [ "cp" "injection-flags" "%{share}%/coq-tactician/plugins/coq-tactician-api-%{name}%/" ]
 ]
 dev-repo: "git+https://github.com/pestun/graph2tac.git"
 pin-depends: [
   [
     "coq-tactician.8.11.dev"
-    "git+https://github.com/coq-tactician/coq-tactician.git#43c5badf0d0c272b75c68ca67a49428b2adf0184"
+    "git+https://github.com/coq-tactician/coq-tactician.git#9224b136ee7823d4776301035d9455f56c8c16b1"
   ]
   [
-    "coq-tactician-reinforce.8.11.dev"
-    "git+ssh://git@github.com/coq-tactician/coq-tactician-reinforce.git#e4df10867dbed8e4a03205e6be55cb5fa91128e8"
+    "coq-tactician-api.8.11.dev"
+    "git+ssh://git@github.com/coq-tactician/coq-tactician-api.git#2c74b6ae28073c8f3895ebd7816014f5e6771aa3"
   ]
 ]
 depends: [
-  "coq-tactician-reinforce"
+  "coq-tactician-api"
   "coq-tactician"
 ]
 extra-source "model.tar.gz" {
