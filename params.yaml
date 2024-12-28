@@ -7,6 +7,6 @@ injection_lines:
   --log_level=summary --tf_log_level=critical --cpu-thread-count 1 --tactic_expand_bound=256
   --search_expand_bound=256 --update_new_definitions --max_tactic_args=10 --knn-proofstep-limit=1000
   --knn-dist=cosine --knn-only --knn-duplicate-reduction=softmax --knn-use-learned-tactic-embeddings-for-arg-prediction
-  --knn-keys-ignore-tactic-head --knn-trained-model=/dccstor/mathzero/debug_memory_leak/knn_data_hidden3/models/models/knn_model_1755469.h5".
+  --knn-keys-ignore-tactic-head --knn-trained-model=/dccstor/mathzero/debug_memory_leak/knn_data_hidden3/models/knn_model_1755469.h5".
 model_md5sum: 746f36f4d45c9557f9d4ec62a0c1e07e
 model_source_url: http://64.71.146.254:8000/SFyud_C5TmEq7AwnK9jaLsfTFMzgBl54cQ0pl2FJB-x9o2Hk24F4jO_W75RqGdOJ/weights/2023-05-26_C_tfgnn_v15_opam-training_main_no-names_continued_epoch247.746f36f4d45c9557f9d4ec62a0c1e07e.tar.gz
